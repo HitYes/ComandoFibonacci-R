@@ -1,0 +1,15 @@
+Desarrollar algoritmo de Fibonacci en R Studio
+
+> s_fib <- function(m) {
++     
++     serie <- vector("numeric", length = m)
++     
++     for (i in 1:m) {
++         
++         serie[i] <- fib(i)
++     }
++     
++     return(serie)
++ }
+> s_fib(11)
+ [1]  0  1  1  2  3  5  8 13 21 34 55
